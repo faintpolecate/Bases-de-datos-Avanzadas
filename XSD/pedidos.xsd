@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="tienda">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="articulos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="articulo" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="id" type="xs:string"></xs:element>
+                                        <xs:element name="nombre" type="xs:string"></xs:element>
+                                        <xs:element name="precio" type="xs:double"></xs:element>
+                                        <xs:element name="existencia" type="xs:integer"></xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema> 
