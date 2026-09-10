@@ -1,0 +1,10 @@
+<!ELEMENT Universidad (alumnos)>
+<!ELEMENT alumnos (alumno+)>
+<!ELEMENT alumno (id,nombre,carrera,materias)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT carrera (#PCDATA)>
+<!ELEMENT materias (materia+)>
+<!ELEMENT materia (nombre_m,calificacion)>
+<!ELEMENT nombre_m (#PCDATA)>
+<!ELEMENT calificacion (#PCDATA)>

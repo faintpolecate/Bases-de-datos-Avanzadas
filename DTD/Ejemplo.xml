@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tienda SYSTEM "Ejemplo.dtd">
+
+<!-- Antonio Ruvalcaba Mata 460326160-->
+
+<tienda>
+    <articulos>
+        <articulo>
+            <id>L001</id>
+            <nombre>Leche</nombre>
+            <precio>30.50</precio>
+            <existencia>30</existencia>
+        </articulo>
+        <articulo>
+            <id>H101</id>
+            <nombre>Huevo</nombre>
+            <precio>27.80</precio>
+            <existencia>15</existencia>
+        </articulo>
+        <articulo>
+            <id>Q201</id>
+            <nombre>Queso</nombre>
+            <precio>40.70</precio>
+            <existencia>50</existencia>
+        </articulo>
+        <articulo>
+            <id>M301</id>
+            <nombre>Mantequilla</nombre>
+            <precio>15.99</precio>
+            <existencia>35</existencia>
+        </articulo>
+    </articulos>
+</tienda>

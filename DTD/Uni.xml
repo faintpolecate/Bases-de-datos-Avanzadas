@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Universidad SYSTEM "Uni.dtd">
+<!-- Antonio Ruvalcaba Mata -->
+<!-- Registro Universidad -->
+
+<Universidad>
+    <alumnos>
+        <alumno>
+            <id>01</id>
+            <nombre>Antonio</nombre>
+            <carrera>SIS</carrera>
+            <materias>
+                <materia>
+                    <nombre_m>Calculo</nombre_m>
+                    <calificacion>9.0</calificacion>
+                </materia>
+                <materia>
+                    <nombre_m>Quimica</nombre_m>
+                    <calificacion>8.0</calificacion>
+                </materia>
+            </materias>
+        </alumno>
+        <alumno>
+            <id>02</id>
+            <nombre>Ana</nombre>
+            <carrera>INFO</carrera>
+            <materias>
+                <materia>
+                    <nombre_m>Progamacion</nombre_m>
+                    <calificacion>7.0</calificacion>
+                </materia>
+                <materia>
+                    <nombre_m>Fisica</nombre_m>
+                    <calificacion>10</calificacion>
+                </materia>
+            </materias>
+        </alumno>
+        <alumno>
+            <id>03</id>
+            <nombre>Luis</nombre>
+            <carrera>COM</carrera>
+            <materias>
+                <materia>
+                    <nombre_m>Ingles</nombre_m>
+                    <calificacion>9.7</calificacion>
+                </materia>
+                <materia>
+                    <nombre_m>Diseño</nombre_m>
+                    <calificacion>8.6</calificacion>
+                </materia>
+            </materias>
+        </alumno>
+        <alumno>
+            <id>04</id>
+            <nombre>Maria</nombre>
+            <carrera>IMEC</carrera>
+            <materias>
+                <materia>
+                    <nombre_m>Robotica</nombre_m>
+                    <calificacion>5.7</calificacion>
+                </materia>
+                <materia>
+                    <nombre_m>Programacion</nombre_m>
+                    <calificacion>7.9</calificacion>
+                </materia>
+            </materias>
+        </alumno>
+        <alumno>
+            <id>05</id>
+            <nombre>Daniel</nombre>
+            <carrera>QUIM</carrera>
+            <materias>
+                <materia>
+                    <nombre_m>Quimica</nombre_m>
+                    <calificacion>9.4</calificacion>
+                </materia>
+                <materia>
+                    <nombre_m>Fisica</nombre_m>
+                    <calificacion>9.6</calificacion>
+                </materia>
+            </materias>
+        </alumno>
+    </alumnos>
+</Universidad>
